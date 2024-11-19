@@ -1,8 +1,15 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
 * {
   font-family: "Roboto", sans-serif;
 }
 
 .hero {
+  padding: 16px 128px;
   background-color: #1f2937;
   color: #f9faf8;
 }
@@ -11,6 +18,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 100px;
 }
 
 .hero-content {
@@ -35,4 +43,18 @@
 .nav-links a {
   text-decoration: none;
   color: #e5e7eb;
+}
+
+.signup-btn {
+  background-color: #3882f6;
+  color: #f9faf8;
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-weight: 500;
+  border: none;
+}
+.information {
+  padding: 16px 128px;
+  margin-bottom: 100px;
+  background-color: white;
 }
